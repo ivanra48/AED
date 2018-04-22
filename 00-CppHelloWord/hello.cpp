@@ -1,3 +1,9 @@
+/* HolaMundo
+ * Print "Hola mundo" and save on document.
+ * Ivan Ramis
+ * 22/4/2018
+ */
+
 #include <iostream>
 #include <fstream>
 using namespace std;
