@@ -2,8 +2,8 @@ Problema
 
 Obtener del usuario dos números y mostrarle la suma.
 
-![Diagram](01-Adicion/Diagram.png)
+![Diagram](Diagram.png)
 
-![IPO.png](01-Adicion/IPO.png)
+![IPO.png](IPO.png)
 
 
