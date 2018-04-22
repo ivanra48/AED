@@ -7,3 +7,6 @@ Obtener del usuario dos números y mostrarle la suma.
 ![IPO.png](IPO.png)
 
 
+LEER A;
+LEER B;
+MOSTRAR A + B;
