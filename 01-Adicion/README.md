@@ -1,6 +1,9 @@
 Problema
 
-Obtener del usuario dos números y mostrarle la suma.
+Obtener del usuario dos nÃºmeros y mostrarle la suma.
 
+![Diagram]
+
+![IPO]
 
 
