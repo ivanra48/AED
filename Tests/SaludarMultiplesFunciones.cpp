@@ -8,13 +8,13 @@ int main(){
 	string SolicitarNombre();
 	string SolicitarApellido();
 	void MostrarSaludo(string, string);
-	MostrarSaludo(SolicitarNombre, SolicitarApellido);
+	MostrarSaludo(SolicitarNombre (), SolicitarApellido());
 	
 }
 
 string SolicitarNombre(){
 	
-	std::cout << "Ingrese su nombre";
+	std::cout << "Ingrese su nombre \n";
 	string nombre;
 	std::cin >> nombre;
 	return nombre;
@@ -22,7 +22,7 @@ string SolicitarNombre(){
 
 string SolicitarApellido(){
 	
-	std::cout << "ingrese su apellido";
+	std::cout << "ingrese su apellido \n";
 	string apellido;
 	std::cin >> apellido;
 	return apellido;
