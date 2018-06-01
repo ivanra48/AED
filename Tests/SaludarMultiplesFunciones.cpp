@@ -8,7 +8,8 @@ int main(){
 	string SolicitarNombre();
 	string SolicitarApellido();
 	void MostrarSaludo(string, string);
-	MostrarSaludo(SolicitarNombre (), SolicitarApellido());
+	string nombre = SolicitarNombre ();
+	MostrarSaludo(nombre, SolicitarApellido());
 	
 }
 
