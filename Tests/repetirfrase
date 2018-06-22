@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+
+int main(){
+
+	
+	string SolicitarFrase();
+	void RepetirFrase (string);
+	string Frase = SolicitarFrase();
+}
+
+
+string SolicitarFrase(){
+
+	std::cout << "Ingrese frase a repetir \n";
+	string frasee;
+	std::cin >> frasee;
+	return frasee;
+
+}
+
+void RepetirFrase(string a){
+
+	int cont = 0;
+
+	if (cont <= 100){
+
+		std::cout a;
+		cont = cont + 1;
+	}
+	else{
+
+		return 0;
+	}
+
+
+}
