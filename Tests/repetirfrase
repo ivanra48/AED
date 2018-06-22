@@ -1,12 +1,15 @@
 #include <iostream>
 #include <string>
 
+using std::string;
+
 int main(){
 
 	
 	string SolicitarFrase();
-	void RepetirFrase (string);
 	string Frase = SolicitarFrase();
+	void RepetirFrase (string);
+	RepetirFrase (Frase);
 }
 
 
@@ -23,15 +26,10 @@ void RepetirFrase(string a){
 
 	int cont = 0;
 
-	if (cont <= 100){
+	if (cont < 100){
 
-		std::cout a;
+		std::cout << a;
 		cont = cont + 1;
 	}
-	else{
-
-		return 0;
-	}
-
-
+	
 }
